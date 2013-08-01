@@ -133,6 +133,15 @@
 		A47D7DAD17AAA2FC001191F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D7DAC17AAA2FC001191F6 /* AppDelegate.m */; };
 		A47D7DB017AAA2FC001191F6 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D7DAF17AAA2FC001191F6 /* HelloWorldLayer.m */; };
 		A47D7DB317AAA2FC001191F6 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D7DB217AAA2FC001191F6 /* IntroLayer.m */; };
+		A47D7DBA17AAA335001191F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D7DB917AAA335001191F6 /* Default-568h@2x.png */; };
+		A47D7DBD17AAA39E001191F6 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D7DBC17AAA39D001191F6 /* GameScene.m */; };
+		A47D7DC617AAA3D5001191F6 /* bg_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D7DBF17AAA3D5001191F6 /* bg_0.png */; };
+		A47D7DC717AAA3D5001191F6 /* bg_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D7DC017AAA3D5001191F6 /* bg_1.png */; };
+		A47D7DC817AAA3D5001191F6 /* bg_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D7DC117AAA3D5001191F6 /* bg_2.png */; };
+		A47D7DC917AAA3D5001191F6 /* bg_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D7DC217AAA3D5001191F6 /* bg_3.png */; };
+		A47D7DCA17AAA3D5001191F6 /* kick.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D7DC317AAA3D5001191F6 /* kick.png */; };
+		A47D7DCB17AAA3D5001191F6 /* punch.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D7DC417AAA3D5001191F6 /* punch.png */; };
+		A47D7DCC17AAA3D5001191F6 /* stand.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D7DC517AAA3D5001191F6 /* stand.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -398,6 +407,16 @@
 		A47D7DAF17AAA2FC001191F6 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		A47D7DB117AAA2FC001191F6 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		A47D7DB217AAA2FC001191F6 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		A47D7DB917AAA335001191F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		A47D7DBB17AAA39D001191F6 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		A47D7DBC17AAA39D001191F6 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		A47D7DBF17AAA3D5001191F6 /* bg_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_0.png; sourceTree = "<group>"; };
+		A47D7DC017AAA3D5001191F6 /* bg_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_1.png; sourceTree = "<group>"; };
+		A47D7DC117AAA3D5001191F6 /* bg_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_2.png; sourceTree = "<group>"; };
+		A47D7DC217AAA3D5001191F6 /* bg_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_3.png; sourceTree = "<group>"; };
+		A47D7DC317AAA3D5001191F6 /* kick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kick.png; sourceTree = "<group>"; };
+		A47D7DC417AAA3D5001191F6 /* punch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = punch.png; sourceTree = "<group>"; };
+		A47D7DC517AAA3D5001191F6 /* stand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stand.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,6 +477,8 @@
 			children = (
 				A47D7DAB17AAA2FC001191F6 /* AppDelegate.h */,
 				A47D7DAC17AAA2FC001191F6 /* AppDelegate.m */,
+				A47D7DBB17AAA39D001191F6 /* GameScene.h */,
+				A47D7DBC17AAA39D001191F6 /* GameScene.m */,
 				A47D7DAE17AAA2FC001191F6 /* HelloWorldLayer.h */,
 				A47D7DAF17AAA2FC001191F6 /* HelloWorldLayer.m */,
 				A47D7DB117AAA2FC001191F6 /* IntroLayer.h */,
@@ -472,7 +493,9 @@
 		A47D7C3417AAA2F8001191F6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A47D7DBE17AAA3C1001191F6 /* Res */,
 				A47D7C3517AAA2F8001191F6 /* Default.png */,
+				A47D7DB917AAA335001191F6 /* Default-568h@2x.png */,
 				A47D7C3717AAA2F9001191F6 /* Default-Landscape~ipad.png */,
 				A47D7C3917AAA2F9001191F6 /* fps_images.png */,
 				A47D7C3B17AAA2F9001191F6 /* fps_images-hd.png */,
@@ -832,6 +855,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A47D7DBE17AAA3C1001191F6 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				A47D7DBF17AAA3D5001191F6 /* bg_0.png */,
+				A47D7DC017AAA3D5001191F6 /* bg_1.png */,
+				A47D7DC117AAA3D5001191F6 /* bg_2.png */,
+				A47D7DC217AAA3D5001191F6 /* bg_3.png */,
+				A47D7DC317AAA3D5001191F6 /* kick.png */,
+				A47D7DC417AAA3D5001191F6 /* punch.png */,
+				A47D7DC517AAA3D5001191F6 /* stand.png */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -895,6 +932,14 @@
 				A47D7C4A17AAA2F9001191F6 /* Icon@2x.png in Resources */,
 				A47D7C4D17AAA2F9001191F6 /* iTunesArtwork in Resources */,
 				A47D7D8B17AAA2FC001191F6 /* ChangeLog in Resources */,
+				A47D7DBA17AAA335001191F6 /* Default-568h@2x.png in Resources */,
+				A47D7DC617AAA3D5001191F6 /* bg_0.png in Resources */,
+				A47D7DC717AAA3D5001191F6 /* bg_1.png in Resources */,
+				A47D7DC817AAA3D5001191F6 /* bg_2.png in Resources */,
+				A47D7DC917AAA3D5001191F6 /* bg_3.png in Resources */,
+				A47D7DCA17AAA3D5001191F6 /* kick.png in Resources */,
+				A47D7DCB17AAA3D5001191F6 /* punch.png in Resources */,
+				A47D7DCC17AAA3D5001191F6 /* stand.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,6 +1054,7 @@
 				A47D7DAD17AAA2FC001191F6 /* AppDelegate.m in Sources */,
 				A47D7DB017AAA2FC001191F6 /* HelloWorldLayer.m in Sources */,
 				A47D7DB317AAA2FC001191F6 /* IntroLayer.m in Sources */,
+				A47D7DBD17AAA39E001191F6 /* GameScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
